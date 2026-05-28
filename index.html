@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hello-world.exe</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell" aria-label="hello-world.exe terminal">
+      <section class="terminal" aria-live="polite">
+        <header class="terminal__bar">
+          <div class="lights" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <p>HELLO-WORLD.EXE</p>
+          <button class="icon-button" id="reboot" type="button" aria-label="Reboot terminal" title="Reboot terminal">
+            &#8635;
+          </button>
+        </header>
+
+        <div class="display">
+          <div class="status-line">
+            <span>BOOT SECTOR: OK</span>
+            <span>MEMORY: 64K</span>
+            <span id="clock">00:00:00</span>
+          </div>
+
+          <h1>HELLO WORLD</h1>
+          <p class="subtitle">A tiny museum of the first thing programmers teach machines to say.</p>
+
+          <nav class="mode-switcher" aria-label="Hello World modes">
+            <button class="mode is-active" type="button" data-mode="basic">BASIC</button>
+            <button class="mode" type="button" data-mode="c">C</button>
+            <button class="mode" type="button" data-mode="python">PYTHON</button>
+            <button class="mode" type="button" data-mode="enterprise">ENTERPRISE</button>
+            <button class="mode" type="button" data-mode="esolang">ESOLANG</button>
+          </nav>
+
+          <section class="program-panel" aria-label="Selected Hello World program">
+            <div class="panel-meta">
+              <span id="era">1977</span>
+              <span id="label">home computer ritual</span>
+            </div>
+            <pre id="program"><code></code></pre>
+            <p id="caption"></p>
+          </section>
+
+          <div class="command-line">
+            <span>C:\HELLO&gt;</span>
+            <span id="typed-command"></span>
+            <span class="cursor" aria-hidden="true"></span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
