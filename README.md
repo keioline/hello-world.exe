@@ -1,5 +1,9 @@
 # hello-world.exe
 
+[![Live Site](https://img.shields.io/badge/live-GitHub%20Pages-6cff9d?style=for-the-badge&labelColor=06130c)](https://keioline.github.io/hello-world.exe/)
+![No Build](https://img.shields.io/badge/no%20build-step-ffd66b?style=for-the-badge&labelColor=06130c)
+![Static](https://img.shields.io/badge/static-five%20modes-79d7ff?style=for-the-badge&labelColor=06130c)
+
 ![hello-world.exe preview](assets/preview.png)
 
 **English** | [中文](#中文)
@@ -10,6 +14,10 @@ A retro CRT terminal museum for the oldest small program in the room.
 
 [Live site](https://keioline.github.io/hello-world.exe/)
 
+## What It Is
+
+This is not a tutorial scaffold or a starter template. It is a finished small web artifact: a static, dependency-free Hello World experience with a deliberately retro interface and a few playful programming-history references.
+
 ## Features
 
 - CRT-inspired visual design with scanlines, glow, glass reflection, and a beige computer shell
@@ -17,6 +25,26 @@ A retro CRT terminal museum for the oldest small program in the room.
 - Typewriter-style command prompt and a small reboot interaction
 - No build step, no dependencies, no framework
 - Works as a static GitHub Pages site
+
+## Repository Polish
+
+Recommended repository description:
+
+```text
+A retro CRT terminal museum for Hello World.
+```
+
+Recommended topics:
+
+```text
+hello-world retro crt github-pages javascript old-school web-art static-site
+```
+
+Social preview image:
+
+```text
+assets/social-preview.png
+```
 
 ## Modes
 
@@ -47,6 +75,8 @@ http://127.0.0.1:4173/
 - Design notes: [docs/design.md](docs/design.md)
 - Mode guide: [docs/modes.md](docs/modes.md)
 - Deployment notes: [docs/deployment.md](docs/deployment.md)
+- Release notes: [docs/release-notes.md](docs/release-notes.md)
+- Changelog: [CHANGELOG.md](CHANGELOG.md)
 
 ## Why
 
@@ -62,6 +92,10 @@ Because a Hello World repository does not have to be boring. It can be a little 
 
 [在线访问](https://keioline.github.io/hello-world.exe/)
 
+## 这是什么
+
+这不是教程骨架，也不是初始化模板。它是一个完整的小型网页作品：纯静态、无依赖，把 Hello World 做成一个有复古终端界面和程序历史玩笑的互动展品。
+
 ## 特性
 
 - CRT 风格视觉：扫描线、荧光字、屏幕反光、米色老电脑外壳
@@ -69,6 +103,26 @@ Because a Hello World repository does not have to be boring. It can be a little 
 - 打字机式命令行提示和一个轻量重启交互
 - 无构建步骤、无依赖、无框架
 - 可以直接部署到 GitHub Pages
+
+## 仓库包装
+
+推荐仓库描述：
+
+```text
+A retro CRT terminal museum for Hello World.
+```
+
+推荐 topics：
+
+```text
+hello-world retro crt github-pages javascript old-school web-art static-site
+```
+
+社交预览图：
+
+```text
+assets/social-preview.png
+```
 
 ## 模式
 
@@ -99,6 +153,8 @@ http://127.0.0.1:4173/
 - 设计说明：[docs/design.md](docs/design.md)
 - 模式说明：[docs/modes.md](docs/modes.md)
 - 部署说明：[docs/deployment.md](docs/deployment.md)
+- 发布说明：[docs/release-notes.md](docs/release-notes.md)
+- 更新日志：[CHANGELOG.md](CHANGELOG.md)
 
 ## 为什么做这个
 
